@@ -1,0 +1,32 @@
+
+
+.divCard{
+    background-color:#00d41244;
+    width: 65%;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 8px 5px 5px 0px rgba(0,0,0,0.75);
+    border: double 5px;
+    border-color: black;
+    margin: 0 auto;
+    display: flex;
+  align-items: center;
+}
+
+.info,
+.imagen {
+   display: inline-block;
+   vertical-align: top;
+}
+
+.info {
+    margin-right: 10px;
+}
+
+.imagen {
+    margin-left: 150px;
+ }
+
+ h1 {
+    word-wrap: break-word;
+ }

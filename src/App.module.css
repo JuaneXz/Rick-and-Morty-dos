@@ -1,0 +1,22 @@
+.nav{
+   background-color: #eeff0000;
+   padding: 1em;
+   display: flex;
+   flex-direction: row;
+   justify-content: end;
+   margin-bottom: 1em;
+}
+
+body {
+   background-image: url("https://rare-gallery.com/mocahbig/391711-rick-and-morty-4k-pc-wallpaper.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+ }
+
+ @import url('https://fonts.googleapis.com/css?family=Get+Schwifty');
+
+body {
+  font-family: 'Get Schwifty', cursive;
+}
+
