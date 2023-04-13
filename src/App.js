@@ -7,6 +7,7 @@ import About from './components/About';
 import Detail from './components/Detail/Detail';
 import style from "./App.module.css"
 import Form from './components/Form/Form'
+import Favorites from './components/Favorites/Favorites'
 
   const URL_BASE = 'https://be-a-rym.up.railway.app/api';
   const KEY = '96c95f96b69d.beec75df07333278e58c';
@@ -67,6 +68,7 @@ useEffect(() => {
           characters={characters} onClose={onClose} allClose={allClose}/>} />
           <Route path='/about' element={<About/>} />
           <Route path='/detail/:id' element={<Detail/>} />
+          <Route path='/favorites' element={<Favorites/>}/>
         </Routes> 
     </div>
     

@@ -41,6 +41,20 @@
     border-radius: 3px;
  }
 
+ .fav {
+    float: right;
+    border-radius: 10px;
+    border: 0;
+    width: 25%;
+    font-size: 18px;
+    font-size: 18px;
+    vertical-align: middle;
+    background-color: transparent;
+ }
+
+ .imagen{
+    border-radius: 50%;
+ }
  
  
  

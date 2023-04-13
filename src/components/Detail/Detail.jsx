@@ -29,6 +29,7 @@ export default function Detail (){
             <div className={styles.info}>
                 <h4>Id: {character?.id}</h4>
                 <h1>Name: {character?.name}</h1>
+                <h1>Status: {character?.status}</h1>
                 <h1>Specie: {character?.species}</h1>
                 <h1>Gender: {character?.gender}</h1>
                 <h1>Origin: {character?.origin?.name}</h1>
